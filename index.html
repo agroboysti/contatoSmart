@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela</title>
+
+    <link rel="stylesheet" href="./css/estilizacao.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="form">
+            <div class="inputs">
+                <input type="text" class="inputs" id="nome" placeholder="Nome" required>
+                <input type="email" class="inputs" id="email" placeholder="E-mail" required>
+                <input type="tel" class="inputs" id="tel" placeholder="Celular" required>
+            </div>
+            <button type="submit" onclick="irPainel()">Painel</button>
+        </div>
+        <b id="error"></b>
+    </div>
+    <Div>
+        <button type="submit" class="button" onclick="salvar()">Salvar</button><br>
+        <button type="submit" class="button" onclick="limpar()">Limpar</button><br>
+    </Div>
+
+    <script src="./js/salvar.js"></script>
+    <script src="./js/redirecionar.js"></script>
+    <script src="./js/verificar.js"></script>
+    <script src="./js/mascaraNumero.js"></script>
+</body>
+
+</html>
